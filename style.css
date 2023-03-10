@@ -1,19 +1,28 @@
 body {
-    background-color: lightblue;
+    background-color:#822EE6;
 }
 
 h1 {
-    color: white;
+    color:#04ffe2;
+    background-color:#BD2EF0;
+    border: 2px solid #000000;
 }
 
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+/*CLASS*/
 .center{ 
     text-align: center;
 }
 
-.fonte-verde {
-    color:green;
+.fonte-cor {
+    color:#000000;
 }
 
+/*ID*/
 #para {
     font-family: verdana;
     font-size: 20px;
