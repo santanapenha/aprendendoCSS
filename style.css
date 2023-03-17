@@ -4,10 +4,12 @@ body {
 }
 
 h1 {
-    color:#04ffe2;
+    color:#000000;
     background-color:#BD2EF0;
     opacity:5;
     border: 2px inset rgb(0,0,0);
+    text-shadow: 2px 2px #04ffe2;
+    
 }
 
 p {
@@ -23,17 +25,39 @@ p {
 .fonte-cor {
     color:#000000;
     border: 5px solid #04ffe2;
-    border-width: 10px 4px;
-    border-radius: 25px;
-    border-left: 2px;
-    border-right: 2px;
+    padding: 6px;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 5px #04ffe2;
+}
+
+.texto { 
+    text-decoration-line: underline;
+    text-decoration-color: #BD2EF0;
+    text-decoration-style: wavy;
+    border: 5px solid #04ffe2 ;
+    padding: 6px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px #04ffe2;
+    font-family: 'Lobster', cursive;
+}
+
+.link {
+    text-align: center;
+    border: solid #04ffe2;
     padding: 10px;
-    margin-bottom: 8px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px; 
+    font-family: 'Lobster', cursive;
+    
 }
 
 /*ID*/
 #para {
-    font-family: verdana;
+    font-family: 'Lobster', cursive;
     font-size: 20px;
 }
 
